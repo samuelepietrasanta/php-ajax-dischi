@@ -13,6 +13,23 @@ body{
     border:10px solid black;
     padding:15px;
     color:white;
+    transition: background-color 1s , color 0.5s;
+}
+
+.disco:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    
+}
+
+.disco img{
+    transition: width .5s;
+
+}
+
+.disco:hover img{
+    width: 170px;
 }
 
 p{
